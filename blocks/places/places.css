@@ -1,0 +1,7 @@
+.places {
+    margin: 92px 148px 0 148px;
+    gap: 80px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 52px;
+}
