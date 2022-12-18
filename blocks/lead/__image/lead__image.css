@@ -1,16 +1,25 @@
 .lead__image {
+    align-self: center;
+    max-height: 615px;
     width: 100%;
-    margin: 64px auto 0;
+    padding-top: 64px;
 }
+
+@media screen and (max-width: 1280px){
+    .lead__image {
+      min-height: 100%;
+    }
+  }
 
 @media screen and (max-width: 1024px){
     .lead__image {
-        margin: 56px auto 0;
+        padding-top: 56px;
     }
 }
 
-@media screen and (max-width: 767px){
+@media screen and (max-width: 320px){
     .lead__image {
-        margin: 40px auto 0;
+        min-height: 200px;
+        padding-top: 40px;
     }
 }
